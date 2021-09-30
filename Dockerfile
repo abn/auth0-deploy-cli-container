@@ -1,6 +1,6 @@
 FROM docker.io/node:14-alpine
 
-ARG AUTH0_DEPLOY_CLI_VERSION=v3.6.7
+ARG AUTH0_DEPLOY_CLI_VERSION=v4.3.1
 
 RUN npm i -g auth0-deploy-cli@${AUTH0_DEPLOY_CLI_VERSION}
 
