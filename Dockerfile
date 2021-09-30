@@ -1,4 +1,4 @@
-FROM docker.io/node:8-alpine
+FROM docker.io/node:14-alpine
 
 ARG AUTH0_DEPLOY_CLI_VERSION=v3.6.7
 
